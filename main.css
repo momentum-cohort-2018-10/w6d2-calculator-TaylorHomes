@@ -1,15 +1,3 @@
-input:hover,
-input:active,
-input:focus,
-textarea:hover,
-textarea:active,
-textarea:focus,
-button:hover,
-button:active,
-button:focus {
-  outline: none;
-}
-
 .calculator__keys { 
     display: grid; 
 }
