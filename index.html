@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Calculator</title>
+    <meta name="description" content="Calculator">
+    <!-- <meta name="author" content="SitePoint"> -->
+
+
+    <link rel="stylesheet" href="main.css">
+
+    <div class="container">
+</head>
+
+<h1>KAL-CUE-L8TR</h1>
+
+<body>
+    <script src="main.js"></script>
+    <form name="calculator">
+        <table>
+
+            <tr>
+                <div class="calculator"></div>
+
+
+                <input type="text" class="calculator_display" value="" disabled />
+
+                <!-- <div class="calculator_display">0</div> -->
+
+                <div class="calculator_keys"></div>
+                <element onclick="keys"></element>
+            </tr>
+
+
+            <tr>
+                <td><button class="operation" id="plus">+</button></td>
+                <td><button class="operation" id="minus">-</button></td>
+                <td><button class="operation" id="multiply">x</button></td>
+                <td><button class="operation" id="divide">%</button></td>
+
+            </tr>
+
+
+
+
+            <tr>
+
+                <td><button class="num" id="seven" data-num="7">7</button></td>
+                <td><button class="num" id="eight" data-num="8">8</button></td>
+                <td><button class="num" id="nine" data-num="9">9</button></td>
+
+
+
+
+            </tr>
+            <tr>
+                <td><button class="num" id="four" data-num="4">4</button></td>
+                <td><button class="num" id="five" data-num="5">5</button></td>
+                <td><button class="num" id="six" data-num="6">6</button></td>
+            </tr>
+            <tr>
+
+                <td><button class="num" id="one" data-num="1">1</button></td>
+                <td><button class="num" id="two" data-num="2">2</button></td>
+                <td><button class="num" id="three" data-num="3">3</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="num" id="zero" data-num="0">0</button></td>
+                <td><button class="num" id="decimal" data-num=".">.</button></td>
+                <td><button class="operation" id="clear" data-num="clear">C</button></td>
+            </tr>
+            <tr>
+                <td><button class="operation" id="equal" data-num="equal">=</button></td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
